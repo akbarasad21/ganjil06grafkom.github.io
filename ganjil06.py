@@ -28,9 +28,12 @@ y = y1
 if x1 == x2:
     titikA = []
     titikB = []
-    for i in range (1,y2,1):
-        grafik.plot(titikA,titikB)
-        grafik.show()
+    for i in range (0,y2,1):
+        print('Garis yang di lewati yaitu', x, ',', y+i)
+        titikA.append(x)
+        titikB.append(y+i)
+     grafik.plot(titikA,titikB)
+     grafik.show()
         
 # Jika y1 = y2 (garis horizontal), maka :
 # 1. x = x + 1 dan y tetap
@@ -40,9 +43,12 @@ if x1 == x2:
 elif y1 == y2:
     titikA = []
     titikB = []
-    for i in range (1,y2,1):
-        grafik.plot(titikA,titikB)
-        grafik.show()
+    for i in range (0,x2,1):
+        print('Garis yang di lewati yaitu', x+i, ',', y)
+        titikA.append(x+i)
+        titikB.append(y)
+    grafik.plot(titikA,titikB)
+    grafik.show()
       
 # Jika 2 kondisi di atas salah, maka :
 # 1. hitung kemiringan garis dengan m = (y2 - y1) / (x2 - x1) 

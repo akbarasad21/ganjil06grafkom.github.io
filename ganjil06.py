@@ -32,8 +32,8 @@ if x1 == x2:
         print('Garis yang di lewati yaitu', x, ',', y+i)
         titikA.append(x)
         titikB.append(y+i)
-     grafik.plot(titikA,titikB)
-     grafik.show()
+    grafik.plot(titikA,titikB)
+    grafik.show()
         
 # Jika y1 = y2 (garis horizontal), maka :
 # 1. x = x + 1 dan y tetap

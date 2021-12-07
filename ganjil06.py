@@ -14,3 +14,11 @@ x = x1
 y = y1
 
 i = 1
+
+
+if x1 == x2:
+    titikA = []
+    titikB = []
+    for i in range (1,y2,1):
+        grafik.plot(titikA,titikB)
+        grafik.show()

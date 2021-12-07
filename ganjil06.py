@@ -41,3 +41,6 @@ else:
         titikA.append(x)
         titikB.append(kordinatY)
         x+=1
+        
+    grafik.plot(titikA,titikB)
+    grafik.show()

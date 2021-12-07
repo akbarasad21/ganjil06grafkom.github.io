@@ -28,10 +28,11 @@ y = y1
 if x1 == x2:
     titikA = []
     titikB = []
-    for i in range (0,y2,1):
-        print('Garis yang di lewati yaitu', x, ',', y+i)
+    for i in range (1,y2,1):
+        print('Garis yang di lewati yaitu', x, ',', y)
         titikA.append(x)
-        titikB.append(y+i)
+        titikB.append(y)
+        y=y+1
     grafik.plot(titikA,titikB)
     grafik.show()
         
@@ -43,10 +44,11 @@ if x1 == x2:
 elif y1 == y2:
     titikA = []
     titikB = []
-    for i in range (0,x2,1):
-        print('Garis yang di lewati yaitu', x+i, ',', y)
-        titikA.append(x+i)
+    for i in range (1,x2,1):
+        print('Garis yang di lewati yaitu', x, ',', y)
+        titikA.append(x)
         titikB.append(y)
+        x=x+1
     grafik.plot(titikA,titikB)
     grafik.show()
       

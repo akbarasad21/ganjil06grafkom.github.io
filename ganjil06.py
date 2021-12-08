@@ -1,4 +1,4 @@
-# Numpy digunakan untuk memproses array
+# Numpy merupakan numerik pyhton yang berfungsi untuk memproses array
 # Matplotlib digunakan untuk memvisualisasikan data kordinat menjadi garis
 
 import numpy as np
